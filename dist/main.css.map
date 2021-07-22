@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-boilerplate/./src/style.scss"],"names":[],"mappings":"AAAA,OAEI,yCADA,SACA","file":"main.css","sourcesContent":[".hello {\n    color: red;\n    background: url('./icon.png');\n  }"],"sourceRoot":""}
