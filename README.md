@@ -5,7 +5,7 @@
 # 2) Scss support
 # 3) CSS Minifier
 # 4) Babel support
-# 5) es6 support
+# 5) es5, es6 support
 # 6) HTML5 template support
 # 7) Module support
 
