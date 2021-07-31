@@ -1,4 +1,66 @@
-.hello {
-    color: red;
-    background: url('./icon.png');
+body
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  overflow: hidden;
+  height: 100vh;
+  color:#ffffff;
+
+  font-family:'Verdana', Arial, Helvetica, sans-serif;
+}
+*, *::before, *::after
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.hello-world
+{
+  text-transform: uppercase;
+  width:95%;
+  margin:0 auto;
+  font-size:5rem;
+  text-align: center;
+  .webpack-5
+  {
+    color:aqua;
   }
+  animation:animate-webpack-tt 5s ease-in-out infinite;
+  -webkit-animation:animate-webpack-tt 5s ease-in-out infinite;
+}
+@keyframes animate-webpack-tt
+{
+  0%
+  {
+    opacity: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  50%
+  {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+  100%
+    {
+      opacity: 0;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+}
+}
+p
+{
+  font-size:1.5rem;
+}
