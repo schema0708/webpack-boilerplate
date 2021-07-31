@@ -8,6 +8,7 @@
 # 5) es5, es6 support
 # 6) HTML5 template support
 # 7) Module support
+# 8) Postcss support (autoprefixer)
 
 
 
